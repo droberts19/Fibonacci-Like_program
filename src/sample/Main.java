@@ -11,6 +11,8 @@ public class Main {
         for (int i = 0; i < numberOf; i++) {
             Numberz numberz = new Numberz(15, i+0, 1);
             numberz.run();
+            //Thread t = new Thread(numberz);
+            //t.start();
             System.out.println();
         }
     }

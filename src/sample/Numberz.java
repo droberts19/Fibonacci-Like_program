@@ -18,11 +18,11 @@ public class Numberz implements Runnable{
             number1 = number2;
             number2 = sum;
         }
-        try {
+        /*try {
             Thread.sleep(500);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
-        }
+        }*/
     }
 
     public void run() {
